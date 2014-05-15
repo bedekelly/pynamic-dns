@@ -3,7 +3,7 @@ import subprocess
 import time
 print("-- -- BEGIN DNS UPDATING -- --")
 
-SECRET_TOKEN = "OHhWMjF5Z3hBWHNYa0h6MktVdVdUbWY5OjExNjMzNjIy"
+SECRET_TOKEN = "YOUR-SECRET-TOKEN-HERE"
 
 while True:
     bcurrent_IP = subprocess.check_output(["curl", "-s", "ifconfig.me"])
